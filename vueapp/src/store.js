@@ -13,6 +13,7 @@ export default new Vuex.Store({
         stars: 5,
         totalReviews: 230,
         details: ' edp 125 ml',
+        id:1
       },
       {
         name: 'TOMFORD BLACK ORCHID',
@@ -21,6 +22,7 @@ export default new Vuex.Store({
         stars: 3.4,
         totalReviews: 20,
         details: 'edp 100ml',
+        id:1
       },
       {
         name: 'DIOR HOMME INTENSE',
@@ -29,6 +31,7 @@ export default new Vuex.Store({
         stars: 1,
         totalReviews: 1,
         details: 'edp 100ml',
+        id:1
       },
 
       {
@@ -38,6 +41,7 @@ export default new Vuex.Store({
         stars: 1,
         totalReviews: 1,
         details: 'edp 100ml',
+        id:1
       },
 
       {
@@ -47,6 +51,7 @@ export default new Vuex.Store({
         stars: 1,
         totalReviews: 1,
         details: 'edp 100ml',
+        id:1
       },
 
       {
@@ -56,6 +61,7 @@ export default new Vuex.Store({
         stars: 1,
         totalReviews: 1,
         details: 'edp 100ml',
+        id:1
       },
 
 
@@ -68,6 +74,7 @@ export default new Vuex.Store({
        stars: 0,
        totalReviews: 0,
        details: ' edt 100ml',
+       id:2
      },
      {
        name: 'CAROLINA HERRERA ',
@@ -76,6 +83,7 @@ export default new Vuex.Store({
        stars: 1.5,
        totalReviews: 11,
        details: 'edp 80ml Body lotion',
+       id:2
      },
      {
        name: 'DIOR POISON GIRL ',
@@ -84,6 +92,7 @@ export default new Vuex.Store({
        stars: 1,
        totalReviews: 2,
        details: 'EDP 100ml',
+       id:2
      },
 
      {
@@ -93,6 +102,7 @@ export default new Vuex.Store({
        stars: 1,
        totalReviews: 2,
        details: 'EDP 100ml',
+       id:2
      },
 
      {
@@ -102,17 +112,21 @@ export default new Vuex.Store({
        stars: 1,
        totalReviews: 2,
        details: 'EDP 100ml',
+       id:2
      },
 
      {
        name: 'MRS DIOR',
        price: 3949,
-       image: 'https://s3-eu-west-1.amazonaws.com/media-gbr-buyviu-com/products/36ca23f3734c6182cfa127ae1fec304b_image_1_thumb.jpg',
+       image: 'https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/38APLT7V4B_3348901419345_front.jpg',
        stars: 1,
        totalReviews: 2,
        details: 'EDP 100ml',
+       id:2
      },
     ],
+
+    
 
     cartProducts: [],
     currentProduct: {},
